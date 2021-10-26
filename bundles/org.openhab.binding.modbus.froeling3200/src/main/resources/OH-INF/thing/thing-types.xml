@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="modbus"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:thing="https://openhab.org/schemas/thing-description/v1.0.0"
+	xsi:schemaLocation="https://openhab.org/schemas/thing-description/v1.0.0 https://openhab.org/schemas/thing-description-1.0.0.xsd">
+
+	<thing-type id="lambdatronicP3200">
+		<supported-bridge-type-refs>
+			<bridge-type-ref id="serial" />
+			<bridge-type-ref id="tcp" />
+		</supported-bridge-type-refs>
+
+		<label>Fröling Lambdatronic 3200</label>
+		<description>Boiler Control, used in Fröling wood-, wood chips or pellet boilers.</description>
+
+		<channels>
+			<channel id="boiler_temperature" typeId="boiler_temperature-type" />
+			<channel id="exhaust_gas_temperature" typeId="exhaust_gas_temperature-type" />
+			<channel id="board_temperature" typeId="board_temperature-type" />
+			<channel id="residual_oxygen_content" typeId="residual_oxygen_content-type" />
+			<channel id="primary_air_position" typeId="primary_air_position-type"/>
+			<channel id="secondary_air_position" typeId="secondary_air_position-type"/>
+			<channel id="suck_blower_speed" typeId="suck_blower_speed-type"/>
+			<channel id="sensor_1_temperature" typeId="sensor_1_temperature-type"/>
+			<channel id="condensing_heat_exchanger_temperature" typeId="condensing_heat_exchanger_temperature-type"/>
+			<channel id="return_flow_temperature" typeId="return_flow_temperature-type"/>
+			<channel id="inlet_air_speed" typeId="inlet_air_speed-type"/>
+			<channel id="primary_air_target_position" typeId="primary_air_target_position-type"/>
+			<channel id="suck_blower_target" typeId="suck_blower_target-type"/>
+			<channel id="secondary_air_target_position" typeId="secondary_air_target_position-type"/>
+			<channel id="boiler_power_target" typeId="boiler_power_target-type"/>
+			<channel id="exhaust_gas_target_temperature" typeId="exhaust_gas_target_temperature-type"/>
+			<channel id="oxygen_regulator_target" typeId="oxygen_regulator_target-type"/>
+			<channel id="pellet_board_temperature" typeId="pellet_board_temperature-type"/>
+			<channel id="inlet_air_temperature" typeId="inlet_air_temperature-type"/>
+			<channel id="discharge_auger_current" typeId="discharge_auger_current-type"/>
+			<channel id="operating_hours" typeId="operating_hours-type"/>
+			<channel id="pellet_intermediate_container_level" typeId="pellet_intermediate_container_level-type"/>
+			<channel id="burner_ignitions" typeId="burner_ignitions-type"/>
+			<channel id="fire_conservation_hours" typeId="fire_conservation_hours-type"/>			
+		</channels>
+
+		<config-description-ref uri="thing-type:modbus-froeling:3200" />
+	</thing-type>
+
+	<channel-type id="boiler_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler Temperature</label>
+		<state pattern="%f %unit%" readOnly="true"></state>
+	</channel-type>
+	<channel-type id="exhaust_gas_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Exhaust Gas Temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="board_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Board Temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="residual_oxygen_content-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Residual Oxygen Content</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+	<channel-type id="primary_air_position-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Primary Air Position</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+	<channel-type id="secondary_air_position-type">
+        <item-type>Number:Dimensionless</item-type>
+        <label>Secondary Air Position</label>
+        <state pattern="%d %%" readOnly="true" />
+    </channel-type>
+    <channel-type id="suck_blower_speed-type">
+        <item-type>Number:Dimensionless</item-type>
+        <label>Suck Blower Speed</label>
+        <state pattern="%d RPM" readOnly="true" />
+    </channel-type>    
+    <channel-type id="sensor_1_temperature-type">
+        <item-type>Number:Temperature</item-type>
+        <label>Sensor 1 Temperature</label>
+        <state pattern="%d %unit%" readOnly="true" />
+    </channel-type>
+    <channel-type id="condensing_heat_exchanger_temperature-type">
+        <item-type>Number:Temperature</item-type>
+        <label>Condensing Heat Exchanger Temperature</label>
+        <state pattern="%d %unit%" readOnly="true" />
+    </channel-type>
+    <channel-type id="return_flow_temperature-type">
+        <item-type>Number:Temperature</item-type>
+        <label>Return Flow Temperature</label>
+        <state pattern="%d %unit%" readOnly="true" />
+    </channel-type>
+    <channel-type id="inlet_air_speed-type">
+        <item-type>Number:Speed</item-type>
+        <label>Inlet Air Speed</label>
+        <state pattern="%d %unit%" readOnly="true" />
+    </channel-type>
+    <channel-type id="primary_air_target_position-type">
+        <item-type>Number:Dimensionless</item-type>
+        <label>Primary Air Target Position</label>
+        <state pattern="%d %%" readOnly="true" />
+    </channel-type>
+    <channel-type id="suck_blower_target-type">
+        <item-type>Number:Dimensionless</item-type>
+        <label>Suck Blower Target Power</label>
+        <state pattern="%d %%" readOnly="true" />
+    </channel-type>
+    <channel-type id="secondary_air_target_position-type">
+        <item-type>Number:Dimensionless</item-type>
+        <label>Secondary Air Target Position</label>
+        <state pattern="%d %%" readOnly="true" />
+    </channel-type>
+    <channel-type id="boiler_power_target-type">
+        <item-type>Number:Dimensionless</item-type>
+        <label>Boiler Power Target</label>
+        <state pattern="%d %%" readOnly="true" />
+    </channel-type>
+    <channel-type id="exhaust_gas_target_temperature-type">
+        <item-type>Number:Temperature</item-type>
+        <label>Exhaust Gas Target Temperature</label>
+        <state pattern="%d %unit%" readOnly="true" />
+    </channel-type>
+    <channel-type id="oxygen_regulator_target-type">
+        <item-type>Number:Dimensionless</item-type>
+        <label>Oxygen Regulator Target</label>
+        <state pattern="%d %%" readOnly="true" />
+    </channel-type>
+    <channel-type id="pellet_board_temperature-type">
+        <item-type>Number:Temperature</item-type>
+        <label>Pellet Board Temperature</label>
+        <state pattern="%d %unit%" readOnly="true" />
+    </channel-type>
+    <channel-type id="inlet_air_temperature-type">
+        <item-type>Number:Temperature</item-type>
+        <label>Inlet Air Temperature</label>
+        <state pattern="%d %unit%" readOnly="true" />
+    </channel-type>
+    <channel-type id="discharge_auger_current-type">
+        <item-type>Number:ElectricCurrent</item-type>
+        <label>Discharge Auger Current</label>
+        <state pattern="%f %unit%" readOnly="false" />
+    </channel-type>
+    <channel-type id="operating_hours-type">
+        <item-type>Number:Time</item-type>
+        <label>Operating Hours</label>
+        <state pattern="%d %unit%" readOnly="true" />
+    </channel-type>
+    <channel-type id="pellet_intermediate_container_level-type">
+        <item-type>Number:Dimensionless</item-type>
+        <label>Pellet Intermediate container level</label>
+        <state pattern="%d %%" readOnly="true" />
+    </channel-type>
+    <channel-type id="burner_ignitions-type">
+        <item-type>Number</item-type>
+        <label>Burner Ignitions</label>
+        <state pattern="%d " readOnly="true" />
+    </channel-type>
+    <channel-type id="fire_conservation_hours-type">
+        <item-type>Number:Time</item-type>
+        <label>Fire Conservation Hours</label>
+        <state pattern="%d %unit%" readOnly="true" />
+    </channel-type>
+    
+
+    
+</thing:thing-descriptions>

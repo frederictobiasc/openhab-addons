@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config-description:config-descriptions
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:config-description="https://openhab.org/schemas/config-description/v1.0.0"
+	xsi:schemaLocation="https://openhab.org/schemas/config-description/v1.0.0 https://openhab.org/schemas/config-description-1.0.0.xsd">
+
+	<config-description uri="thing-type:modbus-froeling:3200">
+		<parameter name="controlType" type="text" multiple="false" required="true">
+			<label>Control Type</label>
+			<description>The variant of Lambdatronic 3200 depends on your boiler type: wood chips (H), pellet (P), fire wood (S) or fire wood + pellet (SP)</description>
+			<options>
+				<option value="h">Lambdatronic H 3200</option>
+				<option value="p">Lambdatronic P 3200</option>
+				<option value="s">Lambdatronic S 3200</option>
+				<option value="sp">Lambdatronic SP 3200</option>
+			</options>
+		</parameter>
+		<!-- <parameter name="heatingCircuits" type="text" multiple="true">
+			<label>Activated Heating Circuits</label>
+			<description>Choose the needed heating circuits</description>
+			<options>
+				<option value="hc_1">Heating Circuit 1</option>
+				<option value="hc_2">Heating Circuit 2</option>
+				<option value="hc_3">Heating Circuit 3</option>
+				<option value="hc_4">Heating Circuit 4</option>
+				<option value="hc_5">Heating Circuit 5</option>
+				<option value="hc_6">Heating Circuit 6</option>
+				<option value="hc_7">Heating Circuit 7</option>
+				<option value="hc_8">Heating Circuit 8</option>
+				<option value="hc_9">Heating Circuit 9</option>
+				<option value="hc_10">Heating Circuit 10</option>
+				<option value="hc_11">Heating Circuit 11</option>
+				<option value="hc_12">Heating Circuit 12</option>
+				<option value="hc_13">Heating Circuit 13</option>
+				<option value="hc_14">Heating Circuit 14</option>
+				<option value="hc_15">Heating Circuit 15</option>
+				<option value="hc_16">Heating Circuit 16</option>
+				<option value="hc_17">Heating Circuit 17</option>
+				<option value="hc_18">Heating Circuit 18</option>
+			</options>
+		</parameter>
+		<parameter name="controlType" type="text" multiple="true">
+			<label>Activated Buffers</label>
+			<description>Choose the buffers to query</description>
+			<options>
+				<option value="bf_1">Heating Circuit 1</option>
+				<option value="bf_2">Heating Circuit 2</option>
+				<option value="bf_3">Heating Circuit 3</option>
+				<option value="bf_4">Heating Circuit 4</option>
+			</options>
+		</parameter> -->
+		<parameter name="pollInterval" type="integer" required="true" min="100" unit="ms">
+			<label>Poll Interval</label>
+			<description>Time between polling the data in ms.</description>
+			<default>5000</default>
+			<advanced>true</advanced>
+		</parameter>
+		<!-- <parameter name="enableRC" type="boolean" required="true" min="100" unit="ms">
+			<label>Enable Remote Control</label>
+			<description>This exposes the holding registers BOILER_SET_TARGET_TEMPERATURE,
+			 HEATING_CIRCUIT_1_FLOW_TARGET_TEMPERATURE_SET_1-18, BOILER_1_TARGET_TEMPERATURE_SET_1-8,
+			  BOILER_POWER_TARGET_ENABLE and BOILER_POWER_TARGET_SET. 
+			  Enable this only, when you know what you're doing. Setting wrong values may damage your system.</description>
+			<default>false</default>
+			<advanced>true</advanced>
+		</parameter> -->
+	</config-description>
+</config-description:config-descriptions>
