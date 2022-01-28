@@ -12,6 +12,11 @@
  */
 package org.openhab.binding.modbus.froeling3200.internal;
 
+import static org.openhab.binding.modbus.froeling3200.internal.Froeling3200BindingConstants.EMPTY_FROELING3200_CONTROL;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import org.eclipse.jdt.annotation.NonNullByDefault;
 
 /**
@@ -21,5 +26,14 @@ import org.eclipse.jdt.annotation.NonNullByDefault;
  */
 @NonNullByDefault
 public class Froeling3200Configuration {
+    public String control;
+    public List<String> heatingCircuits = new ArrayList<>();
+    public List<String> buffers = new ArrayList<>();
     public int pollInterval;
+    public boolean enableRC;
+
+    public Froeling3200Configuration() {
+        this.control = EMPTY_FROELING3200_CONTROL;
+    }
+
 }

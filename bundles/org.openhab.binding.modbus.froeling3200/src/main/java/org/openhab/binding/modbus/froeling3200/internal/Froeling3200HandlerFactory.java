@@ -26,7 +26,7 @@ import org.openhab.core.thing.binding.ThingHandlerFactory;
 import org.osgi.service.component.annotations.Component;
 
 /**
- * The {@link FroelingHandlerFactory} is responsible for creating things and thing
+ * The {@link Froeling3200HandlerFactory} is responsible for creating things and thing
  * handlers.
  *
  * @author Frédéric Tobias Christ - Initial contribution
@@ -34,7 +34,7 @@ import org.osgi.service.component.annotations.Component;
 @NonNullByDefault
 @Component(configurationPid = "binding.froeling3200", service = ThingHandlerFactory.class)
 
-public class FroelingHandlerFactory extends BaseThingHandlerFactory {
+public class Froeling3200HandlerFactory extends BaseThingHandlerFactory {
 
     private static final Set<ThingTypeUID> SUPPORTED_THING_TYPES_UIDS = Set.of(THING_TYPE_LAMBDATRONIC_P3200);
 

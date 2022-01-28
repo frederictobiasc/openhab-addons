@@ -18,26 +18,236 @@
 			<channel id="exhaust_gas_temperature" typeId="exhaust_gas_temperature-type" />
 			<channel id="board_temperature" typeId="board_temperature-type" />
 			<channel id="residual_oxygen_content" typeId="residual_oxygen_content-type" />
-			<channel id="primary_air_position" typeId="primary_air_position-type"/>
-			<channel id="secondary_air_position" typeId="secondary_air_position-type"/>
-			<channel id="suck_blower_speed" typeId="suck_blower_speed-type"/>
-			<channel id="sensor_1_temperature" typeId="sensor_1_temperature-type"/>
-			<channel id="condensing_heat_exchanger_temperature" typeId="condensing_heat_exchanger_temperature-type"/>
-			<channel id="return_flow_temperature" typeId="return_flow_temperature-type"/>
-			<channel id="inlet_air_speed" typeId="inlet_air_speed-type"/>
-			<channel id="primary_air_target_position" typeId="primary_air_target_position-type"/>
-			<channel id="suck_blower_target" typeId="suck_blower_target-type"/>
-			<channel id="secondary_air_target_position" typeId="secondary_air_target_position-type"/>
-			<channel id="boiler_power_target" typeId="boiler_power_target-type"/>
-			<channel id="exhaust_gas_target_temperature" typeId="exhaust_gas_target_temperature-type"/>
-			<channel id="oxygen_regulator_target" typeId="oxygen_regulator_target-type"/>
-			<channel id="pellet_board_temperature" typeId="pellet_board_temperature-type"/>
-			<channel id="inlet_air_temperature" typeId="inlet_air_temperature-type"/>
-			<channel id="discharge_auger_current" typeId="discharge_auger_current-type"/>
-			<channel id="operating_hours" typeId="operating_hours-type"/>
-			<channel id="pellet_intermediate_container_level" typeId="pellet_intermediate_container_level-type"/>
-			<channel id="burner_ignitions" typeId="burner_ignitions-type"/>
-			<channel id="fire_conservation_hours" typeId="fire_conservation_hours-type"/>			
+			<channel id="primary_air_position" typeId="primary_air_position-type" />
+			<channel id="secondary_air_position" typeId="secondary_air_position-type" />
+			<channel id="suck_blower_speed" typeId="suck_blower_speed-type" />
+			<channel id="sensor_1_temperature" typeId="sensor_1_temperature-type" />
+			<channel id="condensing_heat_exchanger_temperature" typeId="condensing_heat_exchanger_temperature-type" />
+			<channel id="return_flow_temperature" typeId="return_flow_temperature-type" />
+			<channel id="inlet_air_speed" typeId="inlet_air_speed-type" />
+			<channel id="primary_air_target_position" typeId="primary_air_target_position-type" />
+			<channel id="suck_blower_target" typeId="suck_blower_target-type" />
+			<channel id="secondary_air_target_position" typeId="secondary_air_target_position-type" />
+			<channel id="boiler_power_target" typeId="boiler_power_target-type" />
+			<channel id="exhaust_gas_target_temperature" typeId="exhaust_gas_target_temperature-type" />
+			<channel id="oxygen_regulator_target" typeId="oxygen_regulator_target-type" />
+			<channel id="pellet_board_temperature" typeId="pellet_board_temperature-type" />
+			<channel id="inlet_air_temperature" typeId="inlet_air_temperature-type" />
+			<channel id="discharge_auger_current" typeId="discharge_auger_current-type" />
+			<channel id="operating_hours" typeId="operating_hours-type" />
+			<channel id="pellet_intermediate_container_level" typeId="pellet_intermediate_container_level-type" />
+			<channel id="burner_ignitions" typeId="burner_ignitions-type" />
+			<channel id="fire_conservation_hours" typeId="fire_conservation_hours-type" />
+			<channel id="outdoor_temperature" typeId="outdoor_temperature-type" />
+			<channel id="heating_circuit_1_flow_is_temperature" typeId="heating_circuit_1_flow_is_temperature-type" />
+			<channel id="heating_circuit_1_flow_target_temperature"
+				typeId="heating_circuit_1_flow_target_temperature-type" />
+			<channel id="heating_circuit_1_room_temperature" typeId="heating_circuit_1_room_temperature-type" />
+			<channel id="heating_circuit_2_flow_is_temperature" typeId="heating_circuit_2_flow_is_temperature-type" />
+			<channel id="heating_circuit_2_flow_target_temperature"
+				typeId="heating_circuit_2_flow_target_temperature-type" />
+			<channel id="heating_circuit_2_room_temperature" typeId="heating_circuit_2_room_temperature-type" />
+			<channel id="heating_circuit_3_flow_is_temperature" typeId="heating_circuit_3_flow_is_temperature-type" />
+			<channel id="heating_circuit_3_flow_target_temperature"
+				typeId="heating_circuit_3_flow_target_temperature-type" />
+			<channel id="heating_circuit_3_room_temperature" typeId="heating_circuit_3_room_temperature-type" />
+			<channel id="heating_circuit_4_flow_is_temperature" typeId="heating_circuit_4_flow_is_temperature-type" />
+			<channel id="heating_circuit_4_flow_target_temperature"
+				typeId="heating_circuit_4_flow_target_temperature-type" />
+			<channel id="heating_circuit_4_room_temperature" typeId="heating_circuit_4_room_temperature-type" />
+			<channel id="heating_circuit_5_flow_is_temperature" typeId="heating_circuit_5_flow_is_temperature-type" />
+			<channel id="heating_circuit_5_flow_target_temperature"
+				typeId="heating_circuit_5_flow_target_temperature-type" />
+			<channel id="heating_circuit_5_room_temperature" typeId="heating_circuit_5_room_temperature-type" />
+			<channel id="heating_circuit_6_flow_is_temperature" typeId="heating_circuit_6_flow_is_temperature-type" />
+			<channel id="heating_circuit_6_flow_target_temperature"
+				typeId="heating_circuit_6_flow_target_temperature-type" />
+			<channel id="heating_circuit_6_room_temperature" typeId="heating_circuit_6_room_temperature-type" />
+			<channel id="heating_circuit_7_flow_is_temperature" typeId="heating_circuit_7_flow_is_temperature-type" />
+			<channel id="heating_circuit_7_flow_target_temperature"
+				typeId="heating_circuit_7_flow_target_temperature-type" />
+			<channel id="heating_circuit_7_room_temperature" typeId="heating_circuit_7_room_temperature-type" />
+			<channel id="heating_circuit_8_flow_is_temperature" typeId="heating_circuit_8_flow_is_temperature-type" />
+			<channel id="heating_circuit_8_flow_target_temperature"
+				typeId="heating_circuit_8_flow_target_temperature-type" />
+			<channel id="heating_circuit_8_room_temperature" typeId="heating_circuit_8_room_temperature-type" />
+			<channel id="heating_circuit_9_flow_is_temperature" typeId="heating_circuit_9_flow_is_temperature-type" />
+			<channel id="heating_circuit_9_flow_target_temperature"
+				typeId="heating_circuit_9_flow_target_temperature-type" />
+			<channel id="heating_circuit_9_room_temperature" typeId="heating_circuit_9_room_temperature-type" />
+			<channel id="heating_circuit_10_flow_is_temperature" typeId="heating_circuit_10_flow_is_temperature-type" />
+			<channel id="heating_circuit_10_flow_target_temperature"
+				typeId="heating_circuit_10_flow_target_temperature-type" />
+			<channel id="heating_circuit_10_room_temperature" typeId="heating_circuit_10_room_temperature-type" />
+			<channel id="heating_circuit_11_flow_is_temperature" typeId="heating_circuit_11_flow_is_temperature-type" />
+			<channel id="heating_circuit_11_flow_target_temperature"
+				typeId="heating_circuit_11_flow_target_temperature-type" />
+			<channel id="heating_circuit_11_room_temperature" typeId="heating_circuit_11_room_temperature-type" />
+			<channel id="heating_circuit_12_flow_is_temperature" typeId="heating_circuit_12_flow_is_temperature-type" />
+			<channel id="heating_circuit_12_flow_target_temperature"
+				typeId="heating_circuit_12_flow_target_temperature-type" />
+			<channel id="heating_circuit_12_room_temperature" typeId="heating_circuit_12_room_temperature-type" />
+			<channel id="heating_circuit_13_flow_is_temperature" typeId="heating_circuit_13_flow_is_temperature-type" />
+			<channel id="heating_circuit_13_flow_target_temperature"
+				typeId="heating_circuit_13_flow_target_temperature-type" />
+			<channel id="heating_circuit_13_room_temperature" typeId="heating_circuit_13_room_temperature-type" />
+			<channel id="heating_circuit_14_flow_is_temperature" typeId="heating_circuit_14_flow_is_temperature-type" />
+			<channel id="heating_circuit_14_flow_target_temperature"
+				typeId="heating_circuit_14_flow_target_temperature-type" />
+			<channel id="heating_circuit_14_room_temperature" typeId="heating_circuit_14_room_temperature-type" />
+			<channel id="heating_circuit_15_flow_is_temperature" typeId="heating_circuit_15_flow_is_temperature-type" />
+			<channel id="heating_circuit_15_flow_target_temperature"
+				typeId="heating_circuit_15_flow_target_temperature-type" />
+			<channel id="heating_circuit_15_room_temperature" typeId="heating_circuit_15_room_temperature-type" />
+			<channel id="heating_circuit_16_flow_is_temperature" typeId="heating_circuit_16_flow_is_temperature-type" />
+			<channel id="heating_circuit_16_flow_target_temperature"
+				typeId="heating_circuit_16_flow_target_temperature-type" />
+			<channel id="heating_circuit_16_room_temperature" typeId="heating_circuit_16_room_temperature-type" />
+			<channel id="heating_circuit_17_flow_is_temperature" typeId="heating_circuit_17_flow_is_temperature-type" />
+			<channel id="heating_circuit_17_flow_target_temperature"
+				typeId="heating_circuit_17_flow_target_temperature-type" />
+			<channel id="heating_circuit_17_room_temperature" typeId="heating_circuit_17_room_temperature-type" />
+			<channel id="heating_circuit_18_flow_is_temperature" typeId="heating_circuit_18_flow_is_temperature-type" />
+			<channel id="heating_circuit_18_flow_target_temperature"
+				typeId="heating_circuit_18_flow_target_temperature-type" />
+			<channel id="heating_circuit_18_room_temperature" typeId="heating_circuit_18_room_temperature-type" />
+			<channel id="buffer_1_top_temperature" typeId="buffer_1_top_temperature-type" />
+			<channel id="buffer_1_middle_temperature" typeId="buffer_1_middle_temperature-type" />
+			<channel id="buffer_1_bottom_temperature" typeId="buffer_1_bottom_temperature-type" />
+			<channel id="buffer_1_pump_target" typeId="buffer_1_pump_target-type" />
+			<channel id="buffer_2_top_temperature" typeId="buffer_2_top_temperature-type" />
+			<channel id="buffer_2_middle_temperature" typeId="buffer_2_middle_temperature-type" />
+			<channel id="buffer_2_bottom_temperature" typeId="buffer_2_bottom_temperature-type" />
+			<channel id="buffer_2_pump_target" typeId="buffer_2_pump_target-type" />
+			<channel id="buffer_3_top_temperature" typeId="buffer_3_top_temperature-type" />
+			<channel id="buffer_3_middle_temperature" typeId="buffer_3_middle_temperature-type" />
+			<channel id="buffer_3_bottom_temperature" typeId="buffer_3_bottom_temperature-type" />
+			<channel id="buffer_3_pump_target" typeId="buffer_3_pump_target-type" />
+			<channel id="buffer_4_top_temperature" typeId="buffer_4_top_temperature-type" />
+			<channel id="buffer_4_middle_temperature" typeId="buffer_4_middle_temperature-type" />
+			<channel id="buffer_4_bottom_temperature" typeId="buffer_4_bottom_temperature-type" />
+			<channel id="buffer_4_pump_target" typeId="buffer_4_pump_target-type" />
+			<channel id="state_runtime_now" typeId="state_runtime_now-type" />
+			<channel id="state_runtime_max" typeId="state_runtime_max-type" />
+			<channel id="boiler_set_target_temperature" typeId="boiler_set_target_temperature-type" />
+			<channel id="heating_circuit_1_flow_target_temperature_set"
+				typeId="heating_circuit_1_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_2_flow_target_temperature_set"
+				typeId="heating_circuit_2_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_3_flow_target_temperature_set"
+				typeId="heating_circuit_3_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_4_flow_target_temperature_set"
+				typeId="heating_circuit_4_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_5_flow_target_temperature_set"
+				typeId="heating_circuit_5_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_6_flow_target_temperature_set"
+				typeId="heating_circuit_6_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_7_flow_target_temperature_set"
+				typeId="heating_circuit_7_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_8_flow_target_temperature_set"
+				typeId="heating_circuit_8_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_9_flow_target_temperature_set"
+				typeId="heating_circuit_9_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_10_flow_target_temperature_set"
+				typeId="heating_circuit_10_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_11_flow_target_temperature_set"
+				typeId="heating_circuit_11_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_12_flow_target_temperature_set"
+				typeId="heating_circuit_12_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_13_flow_target_temperature_set"
+				typeId="heating_circuit_13_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_14_flow_target_temperature_set"
+				typeId="heating_circuit_14_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_15_flow_target_temperature_set"
+				typeId="heating_circuit_15_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_16_flow_target_temperature_set"
+				typeId="heating_circuit_16_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_17_flow_target_temperature_set"
+				typeId="heating_circuit_17_flow_target_temperature_set-type" />
+			<channel id="heating_circuit_18_flow_target_temperature_set"
+				typeId="heating_circuit_18_flow_target_temperature_set-type" />
+			<channel id="boiler_1_target_temperature_set" typeId="boiler_1_target_temperature_set-type" />
+			<channel id="boiler_2_target_temperature_set" typeId="boiler_2_target_temperature_set-type" />
+			<channel id="boiler_3_target_temperature_set" typeId="boiler_3_target_temperature_set-type" />
+			<channel id="boiler_4_target_temperature_set" typeId="boiler_4_target_temperature_set-type" />
+			<channel id="boiler_5_target_temperature_set" typeId="boiler_5_target_temperature_set-type" />
+			<channel id="boiler_6_target_temperature_set" typeId="boiler_6_target_temperature_set-type" />
+			<channel id="boiler_7_target_temperature_set" typeId="boiler_7_target_temperature_set-type" />
+			<channel id="boiler_8_target_temperature_set" typeId="boiler_8_target_temperature_set-type" />
+			<channel id="boiler_power_target_enable" typeId="boiler_power_target_enable-type" />
+			<channel id="boiler_power_target_set" typeId="boiler_power_target_set-type" />
+			<channel id="heating_circuit_1_remote_enable"
+                typeId="heating_circuit_1_remote_enable-type" />
+            <channel id="heating_circuit_2_remote_enable"
+                typeId="heating_circuit_2_remote_enable-type" />
+            <channel id="heating_circuit_3_remote_enable"
+                typeId="heating_circuit_3_remote_enable-type" />
+            <channel id="heating_circuit_4_remote_enable"
+                typeId="heating_circuit_4_remote_enable-type" />
+            <channel id="heating_circuit_5_remote_enable"
+                typeId="heating_circuit_5_remote_enable-type" />
+            <channel id="heating_circuit_6_remote_enable"
+                typeId="heating_circuit_6_remote_enable-type" />
+            <channel id="heating_circuit_7_remote_enable"
+                typeId="heating_circuit_7_remote_enable-type" />
+            <channel id="heating_circuit_8_remote_enable"
+                typeId="heating_circuit_8_remote_enable-type" />
+            <channel id="heating_circuit_9_remote_enable"
+                typeId="heating_circuit_9_remote_enable-type" />
+            <channel id="heating_circuit_10_remote_enable"
+                typeId="heating_circuit_10_remote_enable-type" />
+            <channel id="heating_circuit_11_remote_enable"
+                typeId="heating_circuit_11_remote_enable-type" />
+            <channel id="heating_circuit_12_remote_enable"
+                typeId="heating_circuit_12_remote_enable-type" />
+            <channel id="heating_circuit_13_remote_enable"
+                typeId="heating_circuit_13_remote_enable-type" />
+            <channel id="heating_circuit_14_remote_enable"
+                typeId="heating_circuit_14_remote_enable-type" />
+            <channel id="heating_circuit_15_remote_enable"
+                typeId="heating_circuit_15_remote_enable-type" />
+            <channel id="heating_circuit_16_remote_enable"
+                typeId="heating_circuit_16_remote_enable-type" />
+            <channel id="heating_circuit_17_remote_enable"
+                typeId="heating_circuit_17_remote_enable-type" />
+            <channel id="heating_circuit_18_remote_enable"
+                typeId="heating_circuit_18_remote_enable-type" />
+            <channel id="heating_circuit_1_operating_mode"
+                typeId="heating_circuit_1_operating_mode-type" />
+            <channel id="heating_circuit_2_operating_mode"
+                typeId="heating_circuit_2_operating_mode-type" />
+            <channel id="heating_circuit_3_operating_mode"
+                typeId="heating_circuit_3_operating_mode-type" />
+            <channel id="heating_circuit_4_operating_mode"
+                typeId="heating_circuit_4_operating_mode-type" />
+            <channel id="heating_circuit_5_operating_mode"
+                typeId="heating_circuit_5_operating_mode-type" />
+            <channel id="heating_circuit_6_operating_mode"
+                typeId="heating_circuit_6_operating_mode-type" />
+            <channel id="heating_circuit_7_operating_mode"
+                typeId="heating_circuit_7_operating_mode-type" />
+            <channel id="heating_circuit_8_operating_mode"
+                typeId="heating_circuit_8_operating_mode-type" />
+            <channel id="heating_circuit_9_operating_mode"
+                typeId="heating_circuit_9_operating_mode-type" />
+            <channel id="heating_circuit_10_operating_mode"
+                typeId="heating_circuit_10_operating_mode-type" />
+            <channel id="heating_circuit_11_operating_mode"
+                typeId="heating_circuit_11_operating_mode-type" />
+            <channel id="heating_circuit_12_operating_mode"
+                typeId="heating_circuit_12_operating_mode-type" />
+            <channel id="heating_circuit_13_operating_mode"
+                typeId="heating_circuit_13_operating_mode-type" />
+            <channel id="heating_circuit_14_operating_mode"
+                typeId="heating_circuit_14_operating_mode-type" />
+            <channel id="heating_circuit_15_operating_mode"
+                typeId="heating_circuit_15_operating_mode-type" />
+            <channel id="heating_circuit_16_operating_mode"
+                typeId="heating_circuit_16_operating_mode-type" />
+            <channel id="heating_circuit_17_operating_mode"
+                typeId="heating_circuit_17_operating_mode-type" />
+            <channel id="heating_circuit_18_operating_mode"
+                typeId="heating_circuit_18_operating_mode-type" />
 		</channels>
 
 		<config-description-ref uri="thing-type:modbus-froeling:3200" />
@@ -69,101 +279,878 @@
 		<state pattern="%d %%" readOnly="true" />
 	</channel-type>
 	<channel-type id="secondary_air_position-type">
-        <item-type>Number:Dimensionless</item-type>
-        <label>Secondary Air Position</label>
-        <state pattern="%d %%" readOnly="true" />
-    </channel-type>
-    <channel-type id="suck_blower_speed-type">
-        <item-type>Number:Dimensionless</item-type>
-        <label>Suck Blower Speed</label>
-        <state pattern="%d RPM" readOnly="true" />
-    </channel-type>    
-    <channel-type id="sensor_1_temperature-type">
-        <item-type>Number:Temperature</item-type>
-        <label>Sensor 1 Temperature</label>
-        <state pattern="%d %unit%" readOnly="true" />
-    </channel-type>
-    <channel-type id="condensing_heat_exchanger_temperature-type">
-        <item-type>Number:Temperature</item-type>
-        <label>Condensing Heat Exchanger Temperature</label>
-        <state pattern="%d %unit%" readOnly="true" />
-    </channel-type>
-    <channel-type id="return_flow_temperature-type">
-        <item-type>Number:Temperature</item-type>
-        <label>Return Flow Temperature</label>
-        <state pattern="%d %unit%" readOnly="true" />
-    </channel-type>
-    <channel-type id="inlet_air_speed-type">
-        <item-type>Number:Speed</item-type>
-        <label>Inlet Air Speed</label>
-        <state pattern="%d %unit%" readOnly="true" />
-    </channel-type>
-    <channel-type id="primary_air_target_position-type">
-        <item-type>Number:Dimensionless</item-type>
-        <label>Primary Air Target Position</label>
-        <state pattern="%d %%" readOnly="true" />
-    </channel-type>
-    <channel-type id="suck_blower_target-type">
-        <item-type>Number:Dimensionless</item-type>
-        <label>Suck Blower Target Power</label>
-        <state pattern="%d %%" readOnly="true" />
-    </channel-type>
-    <channel-type id="secondary_air_target_position-type">
-        <item-type>Number:Dimensionless</item-type>
-        <label>Secondary Air Target Position</label>
-        <state pattern="%d %%" readOnly="true" />
-    </channel-type>
-    <channel-type id="boiler_power_target-type">
-        <item-type>Number:Dimensionless</item-type>
-        <label>Boiler Power Target</label>
-        <state pattern="%d %%" readOnly="true" />
-    </channel-type>
-    <channel-type id="exhaust_gas_target_temperature-type">
-        <item-type>Number:Temperature</item-type>
-        <label>Exhaust Gas Target Temperature</label>
-        <state pattern="%d %unit%" readOnly="true" />
-    </channel-type>
-    <channel-type id="oxygen_regulator_target-type">
-        <item-type>Number:Dimensionless</item-type>
-        <label>Oxygen Regulator Target</label>
-        <state pattern="%d %%" readOnly="true" />
-    </channel-type>
-    <channel-type id="pellet_board_temperature-type">
-        <item-type>Number:Temperature</item-type>
-        <label>Pellet Board Temperature</label>
-        <state pattern="%d %unit%" readOnly="true" />
-    </channel-type>
-    <channel-type id="inlet_air_temperature-type">
-        <item-type>Number:Temperature</item-type>
-        <label>Inlet Air Temperature</label>
-        <state pattern="%d %unit%" readOnly="true" />
-    </channel-type>
-    <channel-type id="discharge_auger_current-type">
-        <item-type>Number:ElectricCurrent</item-type>
-        <label>Discharge Auger Current</label>
-        <state pattern="%f %unit%" readOnly="false" />
-    </channel-type>
-    <channel-type id="operating_hours-type">
-        <item-type>Number:Time</item-type>
-        <label>Operating Hours</label>
-        <state pattern="%d %unit%" readOnly="true" />
-    </channel-type>
-    <channel-type id="pellet_intermediate_container_level-type">
-        <item-type>Number:Dimensionless</item-type>
-        <label>Pellet Intermediate container level</label>
-        <state pattern="%d %%" readOnly="true" />
-    </channel-type>
-    <channel-type id="burner_ignitions-type">
-        <item-type>Number</item-type>
-        <label>Burner Ignitions</label>
-        <state pattern="%d " readOnly="true" />
-    </channel-type>
-    <channel-type id="fire_conservation_hours-type">
-        <item-type>Number:Time</item-type>
-        <label>Fire Conservation Hours</label>
-        <state pattern="%d %unit%" readOnly="true" />
-    </channel-type>
-    
+		<item-type>Number:Dimensionless</item-type>
+		<label>Secondary Air Position</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+	<channel-type id="suck_blower_speed-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Suck Blower Speed</label>
+		<state pattern="%d RPM" readOnly="true" />
+	</channel-type>
+	<channel-type id="sensor_1_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Sensor 1 Temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="condensing_heat_exchanger_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Condensing Heat Exchanger Temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="return_flow_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Return Flow Temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="inlet_air_speed-type">
+		<item-type>Number:Speed</item-type>
+		<label>Inlet Air Speed</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="primary_air_target_position-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Primary Air Target Position</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+	<channel-type id="suck_blower_target-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Suck Blower Target Power</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+	<channel-type id="secondary_air_target_position-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Secondary Air Target Position</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+	<channel-type id="boiler_power_target-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Boiler Power Target</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+	<channel-type id="exhaust_gas_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Exhaust Gas Target Temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="oxygen_regulator_target-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Oxygen Regulator Target</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+	<channel-type id="pellet_board_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Pellet Board Temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="inlet_air_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Inlet Air Temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="discharge_auger_current-type">
+		<item-type>Number:ElectricCurrent</item-type>
+		<label>Discharge Auger Current</label>
+		<state pattern="%f %unit%" readOnly="false" />
+	</channel-type>
+	<channel-type id="operating_hours-type">
+		<item-type>Number:Time</item-type>
+		<label>Operating Hours</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="pellet_intermediate_container_level-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Pellet Intermediate container level</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+	<channel-type id="burner_ignitions-type">
+		<item-type>Number</item-type>
+		<label>Burner Ignitions</label>
+		<state pattern="%d " readOnly="true" />
+	</channel-type>
+	<channel-type id="fire_conservation_hours-type">
+		<item-type>Number:Time</item-type>
+		<label>Fire Conservation Hours</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="outdoor_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Outdoor Temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_1_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 1 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_1_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 1 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_1_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 1 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
 
-    
+	<channel-type id="heating_circuit_2_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 2 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_2_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 2 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_2_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 2 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_3_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 3 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_3_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 3 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_3_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 3 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_4_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 4 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_4_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 4 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_4_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 4 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_5_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 5 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_5_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 5 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_5_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 5 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_6_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 6 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_6_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 6 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_6_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 6 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_7_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 7 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_7_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 7 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_7_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 7 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_8_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 8 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_8_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 8 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_8_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 8 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_9_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 9 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_9_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 9 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_9_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 9 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_10_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 10 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_10_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 10 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_10_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 10 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_11_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 11 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_11_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 11 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_11_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 11 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_12_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 12 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_12_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 12 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_12_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 12 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_13_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 13 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_13_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 13 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_13_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 13 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_14_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 14 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_14_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 14 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_14_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 14 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_15_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 15 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_15_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 15 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_15_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 15 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_16_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 16 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_16_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 16 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_16_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 16 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_17_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 17 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_17_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 17 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_17_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 17 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_18_flow_is_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 18 flow is temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_18_flow_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 18 flow target temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="heating_circuit_18_room_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 18 room temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="buffer_1_top_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 1 top temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_1_middle_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 1 middle temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_1_bottom_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 1 bottom temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_1_pump_target-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Buffer 1 pump target</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="buffer_2_top_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 2 top temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_2_middle_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 2 middle temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_2_bottom_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 2 bottom temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_2_pump_target-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Buffer 2 pump target</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="buffer_3_top_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 3 top temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_3_middle_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 3 middle temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_3_bottom_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 3 bottom temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_3_pump_target-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Buffer 3 pump target</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="buffer_4_top_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 4 top temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_4_middle_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 4 middle temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_4_bottom_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Buffer 4 bottom temperature</label>
+		<state pattern="%d %unit%" readOnly="true" />
+	</channel-type>
+	<channel-type id="buffer_4_pump_target-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Buffer 4 pump target</label>
+		<state pattern="%d %%" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="state_runtime_now-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Current state runtime</label>
+		<state pattern="%d" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="state_runtime_max-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Maximal state runtime</label>
+		<state pattern="%d" readOnly="true" />
+	</channel-type>
+
+	<channel-type id="boiler_set_target_temperature-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler set target temperature</label>
+		<state readOnly="false" min="30" max="90" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_1_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 1 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_2_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 2 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_3_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 3 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_4_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 4 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_5_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 5 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_6_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 6 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_7_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 7 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_8_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 8 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_9_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 9 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_10_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 10 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_11_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 11 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_12_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 12 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_13_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 13 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_14_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 14 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_15_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 15 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_16_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 16 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_17_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 17 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_18_flow_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Heating circuit 18 flow target temperature set</label>
+		<state readOnly="false" min="0" max="75" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="boiler_1_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler 1 target temperature set</label>
+		<state readOnly="false" min="0" max="65" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="boiler_2_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler 2 target temperature set</label>
+		<state readOnly="false" min="0" max="65" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="boiler_3_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler 3 target temperature set</label>
+		<state readOnly="false" min="0" max="65" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="boiler_4_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler 4 target temperature set</label>
+		<state readOnly="false" min="0" max="65" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="boiler_5_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler 5 target temperature set</label>
+		<state readOnly="false" min="0" max="65" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="boiler_6_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler 6 target temperature set</label>
+		<state readOnly="false" min="0" max="65" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="boiler_7_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler 7 target temperature set</label>
+		<state readOnly="false" min="0" max="65" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="boiler_8_target_temperature_set-type">
+		<item-type>Number:Temperature</item-type>
+		<label>Boiler 8 target temperature set</label>
+		<state readOnly="false" min="0" max="65" pattern="%d %unit%" />
+	</channel-type>
+
+	<channel-type id="boiler_power_target_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Enable boiler remote control</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="boiler_power_target_set-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Set remote control power target</label>
+		<state readOnly="false" min="0" max="100" pattern="%d %%" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_1_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 1 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_2_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 2 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_3_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 3 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_4_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 4 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_5_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 5 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_6_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 6 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_7_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 7 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_8_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 8 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_9_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 9 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_10_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 10 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_11_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 11 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_12_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 12 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_13_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 13 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_14_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 14 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_15_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 15 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_16_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 16 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_17_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 17 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_18_remote_enable-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 18 remote enable</label>
+		<state readOnly="false" min="0" max="1" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_1_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 1 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_2_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 2 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_3_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 3 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_4_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 4 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_5_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 5 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_6_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 6 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_7_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 7 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_8_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 8 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_9_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 9 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_10_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 10 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_11_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 11 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_12_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 12 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_13_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 13 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_14_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 14 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_15_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 15 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_16_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 16 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_17_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 17 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+
+	<channel-type id="heating_circuit_18_operating_mode-type">
+		<item-type>Number:Dimensionless</item-type>
+		<label>Heating circuit 18 operating mode</label>
+		<state readOnly="false" min="0" max="5" pattern="%d" />
+	</channel-type>
+	
+
 </thing:thing-descriptions>

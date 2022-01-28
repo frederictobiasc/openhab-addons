@@ -5,7 +5,7 @@
 	xsi:schemaLocation="https://openhab.org/schemas/config-description/v1.0.0 https://openhab.org/schemas/config-description-1.0.0.xsd">
 
 	<config-description uri="thing-type:modbus-froeling:3200">
-		<parameter name="controlType" type="text" multiple="false" required="true">
+		<parameter name="control" type="text" multiple="false" required="true">
 			<label>Control Type</label>
 			<description>The variant of Lambdatronic 3200 depends on your boiler type: wood chips (H), pellet (P), fire wood (S) or fire wood + pellet (SP)</description>
 			<options>
@@ -15,7 +15,7 @@
 				<option value="sp">Lambdatronic SP 3200</option>
 			</options>
 		</parameter>
-		<!-- <parameter name="heatingCircuits" type="text" multiple="true">
+		<parameter name="heatingCircuits" type="text" multiple="true">
 			<label>Activated Heating Circuits</label>
 			<description>Choose the needed heating circuits</description>
 			<options>
@@ -39,30 +39,30 @@
 				<option value="hc_18">Heating Circuit 18</option>
 			</options>
 		</parameter>
-		<parameter name="controlType" type="text" multiple="true">
+		<parameter name="buffers" type="text" multiple="true">
 			<label>Activated Buffers</label>
 			<description>Choose the buffers to query</description>
 			<options>
-				<option value="bf_1">Heating Circuit 1</option>
-				<option value="bf_2">Heating Circuit 2</option>
-				<option value="bf_3">Heating Circuit 3</option>
-				<option value="bf_4">Heating Circuit 4</option>
+				<option value="bf_1">Buffer 1</option>
+				<option value="bf_2">Buffer 2</option>
+				<option value="bf_3">Buffer 3</option>
+				<option value="bf_4">Buffer 4</option>
 			</options>
-		</parameter> -->
+		</parameter>
 		<parameter name="pollInterval" type="integer" required="true" min="100" unit="ms">
 			<label>Poll Interval</label>
 			<description>Time between polling the data in ms.</description>
 			<default>5000</default>
 			<advanced>true</advanced>
 		</parameter>
-		<!-- <parameter name="enableRC" type="boolean" required="true" min="100" unit="ms">
+		<parameter name="enableRC" type="boolean" required="true">
 			<label>Enable Remote Control</label>
-			<description>This exposes the holding registers BOILER_SET_TARGET_TEMPERATURE,
+			<description>This exposes the holding registers: BOILER_SET_TARGET_TEMPERATURE,
 			 HEATING_CIRCUIT_1_FLOW_TARGET_TEMPERATURE_SET_1-18, BOILER_1_TARGET_TEMPERATURE_SET_1-8,
 			  BOILER_POWER_TARGET_ENABLE and BOILER_POWER_TARGET_SET. 
 			  Enable this only, when you know what you're doing. Setting wrong values may damage your system.</description>
 			<default>false</default>
 			<advanced>true</advanced>
-		</parameter> -->
+		</parameter>
 	</config-description>
 </config-description:config-descriptions>
